@@ -34,7 +34,6 @@ p {
 p span {
     color: hsl(219, 12%, 42%);
     font-weight: bold;
-    margin: 0px 1px;
 }
 .user {
     color:  hsl(224, 21%, 14%);
@@ -46,7 +45,7 @@ span:hover {
 .notification-body {
     background-color: #fff;
     border-radius: 12px;
-    max-width: 560px;
+    max-width: 700px;
     padding: 15px;
     margin: auto;
     /* height: 100%; */
@@ -103,14 +102,14 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 20px;
     padding: 10px;
     align-items: top;
-    max-width: 510px;
+    max-width: 620px;
 }
 .read-notifications-1 {
     margin-bottom: 0;
 }
 .message {
     padding: 15px;
-    max-width: 450px;
+    max-width: 540px;
     border: 1px  solid hsl(211, 68%, 94%);
     border-radius: 5px;
     margin:0px 0px 20px 60px;
@@ -131,6 +130,9 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-between;
     padding-right: 0;
+}
+.read-notifications-2 img {
+    margin-right: 20px;
 }
 
 
