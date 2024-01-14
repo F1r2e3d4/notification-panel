@@ -11,8 +11,8 @@ body {
     height: 100vh;
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: hsl(210, 60%, 98%);
-    font-size: small;
-    display: block;
+    /* font-size: smal; */
+    display: flex;
     /* justify-content: center;
     align-items: center; */
 }
@@ -44,7 +44,7 @@ span:hover {
     border-radius: 12px;
     max-width: 560px;
     padding: 15px;
-    margin: 10px auto;
+    margin: auto;
     /* height: 100%; */
 }
 
@@ -132,10 +132,8 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width:520px) {
     .notification-body {
-        height: 100vh;
         max-width: 390px;
     }
-    /* .read-notifications-1 {
-        max-width: 350px;
-    } */
 }
+
+/* Fredrick Ian Mwangangi is still a little child */
