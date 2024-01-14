@@ -12,9 +12,9 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: hsl(210, 60%, 98%);
     font-size: small;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
 }
 img {
     width: 40px;
@@ -44,11 +44,20 @@ span:hover {
     border-radius: 12px;
     max-width: 560px;
     padding: 15px;
+    margin: 10px auto;
     /* height: 100%; */
 }
+
 body::-webkit-scrollbar {
-    display: none;
+    width: 10px;
+    background:transparent;
+
 }
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(186, 158, 158);
+    /* width: 5px; */
+}
+
 .notification-heading {
     display: flex;
     justify-content: space-between;
@@ -75,16 +84,6 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     background-color:  hsl(210, 60%, 98%);
 }
-.unread-notification:hover {
-    cursor: pointer;
-    
-}
-/* .unread-notification-1 div:nth-child(1),.unread-notification-2 div:nth-child(1),.unread-notification-3 div:nth-child(1){
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-
-} */
 
 .dot, .dot2, .dot3 {
     height: 8px;
